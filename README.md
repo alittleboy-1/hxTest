@@ -44,9 +44,7 @@ npm run dev
 
 后端
 
-!![1754100163095](images/README/1754100163095.png)
-
-![1754100094959](images/README/1754100094959.png)
+!![1754100163095](images/README/1754100163095.png)[(images/README/1754100033407.png)
 
 前端
 
@@ -80,7 +78,7 @@ vendor/bin/phpunit
 
 ### 用户列表
 
-![1754097227194](images/README/1754097227194.png)
+![1754128531269](images/README/1754128531269.png)![1754097227194](images/README/1754097227194.png)
 
 由于数据有限为了展示分页，后端以两条数据为分页。
 

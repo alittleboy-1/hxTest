@@ -88,7 +88,7 @@ class CustomerController
     }
     /**
      * @Apidoc\Title("删除customer")
-     * @Apidoc\Method("GET")
+     * @Apidoc\Method("delete")
      * @Apidoc\Header("token", type="string", require=true, desc="访问令牌")
      * @Apidoc\Header("Authorization", type="string", require=false, desc="")
      * @Apidoc\Returned("id", type="int", desc="age")
@@ -165,13 +165,10 @@ class CustomerController
             'user' => $user,
             'message' => '登录成功'
         ]);
-        // return 11;
     }
 
     public function send(Request $request)
     {
-
-
         try {
             Mail::raw('This is a test email!', function ($message) {
                 $message->to('475361519@qq.com')
